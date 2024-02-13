@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 20px;
     line-height: 1.6;
@@ -8,19 +8,22 @@ body {
 
 header {
     background-color: #ffffff;
-    border-bottom: 2px solid #dddddd;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    border-bottom: 4px solid #0056b3; /* Adds a colored border to the header */
 }
 
 h1 {
-    color: #333333;
+    color: #0056b3; /* Dark blue for the main title */
 }
 
 h2 {
-    border-bottom: 1px solid #dddddd;
+    background-color: #e7f1ff; /* Light blue background for section titles */
     color: #333333;
-    padding: 5px 0;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-left: 5px solid #0056b3; /* Adds a colored side border to each section title */
 }
 
 p, li {
@@ -36,7 +39,7 @@ ul {
 li::before {
     content: "•";
     margin-right: 5px;
-    color: #0275d8;
+    color: #0275d8; /* Keeps bullet points blue */
 }
 
 section {
@@ -44,6 +47,7 @@ section {
     padding: 15px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-left: 4px solid #0056b3; /* Adds a colored border to the left of each section */
 }
 
 footer {
@@ -51,7 +55,7 @@ footer {
     margin-top: 20px;
     padding: 20px;
     background-color: #ffffff;
-    border-top: 2px solid #dddddd;
+    border-top: 4px solid #0056b3; /* Adds a colored border to the footer */
 }
 
 @media print {
